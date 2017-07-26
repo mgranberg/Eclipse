@@ -1,8 +1,11 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Arimo", sans-serif;
+  letter-spacing: 0.05em; }
 
 .wrapperHead {
+  height: 100vh;
   overflow: show;
   margin: 0 auto;
   background-image: url(./images/shoes.png);
@@ -14,70 +17,232 @@ body {
   margin: 0 auto;
   height: 100vh;
   width: 350px; }
+  .landingPage h1 {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 120px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase; }
 
 .logo {
-  width: 40px;
-  height: 40px;
-  background: #999;
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/logo.svg);
+  background-size: cover;
+  background-position: center;
   margin-top: 25px;
   margin-right: 0;
   display: inline-block; }
 
-ul {
+.hamburger {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/menuWhite.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 25px 10px 0px 0;
+  border-radius: 3px;
+  float: right; }
+
+#toggle {
   display: none; }
+  #toggle:checked + ul {
+    display: block; }
+
+ul {
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  margin: 0 auto;
+  width: 350px;
+  display: none; }
+  ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    height: 49px;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #95989A; }
+    ul li:first-child {
+      border-radius: 8px 8px 0 0; }
+    ul li:last-child {
+      border-radius: 0 0 8px 8px; }
 
 .join {
+  padding: 5px 20px;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
   float: right;
   margin-top: 25px;
-  height: 40px;
-  width: 80px;
-  background-color: purple;
+  height: 50px;
+  width: 100px;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  background-image: url(./images/whiteArrowCircleRight.svg);
+  background-position: right;
+  background-size: 55% 55%;
+  background-repeat: no-repeat;
+  background-color: #A100FF;
   color: white; }
-
-h1 {
-  color: white;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  font-size: 60px; }
 
 .landingPage p {
   color: white;
   margin-left: 20px;
-  width: 200px;
+  margin-top: 0px;
+  width: 300px;
   font-size: 14px; }
 
 .styleForm {
+  margin-top: 40px;
   margin-left: 20px;
-  -moz-placeholder-color: black;
-  -ms-input-placeholder-color: black; }
+  -moz-placeholder-color: #6c6c6c;
+  -ms-input-placeholder-color: #6c6c6c; }
   .styleForm select {
-    background-color: white;
+    color: #6c6c6c;
+    font-family: "Arimo", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: url(./images/blueArrowCircleDown.svg);
+    background-size: 55% 55%;
+    background-position: 135% 50%;
+    background-repeat: no-repeat;
     height: 40px;
-    width: 200px;
-    border-radius: 3px;
+    width: 180px;
+    border-radius: 5px;
     border: none;
-    padding: 5px 20px; }
+    padding: 5px 0px 5px 20px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
+    .styleForm select:focus {
+      border-radius: 8px 8px 0 0; }
+  .styleForm option {
+    padding: 5px 0px 5px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif; }
   .styleForm .email {
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    font-size: 14px;
     margin-top: 15px;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 30px;
-    width: 160px;
+    width: 140px;
     border: none;
     padding: 5px 20px; }
   .styleForm .submit {
-    background-color: white;
+    background-color: #28C8C6;
+    background-image: url(./images/whiteArrowCircle.svg);
+    background-size: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     margin: 15px;
     height: 40px;
     width: 40px;
     text-align: center; }
   .styleForm ::-webkit-input-placeholder {
-    color: black; }
+    color: #6c6c6c; }
   .styleForm ::-moz-placeholder {
-    color: black; }
+    color: #6c6c6c; }
+
+.arrow {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  background-image: url(./images/greyArrowCircle.svg);
+  background-size: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  right: 50%;
+  bottom: -40px;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px); }
+
+section {
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: 10px; }
+  section h1 {
+    margin-top: 46px;
+    margin-bottom: 14px;
+    letter-spacing: 0.1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    text-transform: uppercase; }
+
+.latest {
+  height: 300px;
+  background-color: #F5F7F9;
+  background-image: url(./images/phone.png);
+  background-size: 70%;
+  background-position: 50% -67%;
+  background-repeat: no-repeat; }
+
+#blueArrow {
+  background-color: #28C8C6;
+  background-image: url(./images/whiteArrowCircleDown.svg);
+  bottom: -340px; }
+
+.aboutFeatures {
+  height: 600px; }
+
+.features {
+  height: 375px;
+  margin: 40px auto;
+  width: 350px; }
+
+.feature {
+  float: left;
+  width: 175px; }
+
+.block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  border-radius: 100%;
+  width: 145px;
+  height: 145px;
+  background-color: #A100FF;
+  background-position: center;
+  background-size: 55%;
+  background-repeat: no-repeat; }
+
+#cart {
+  background-image: url(./images/shoppingCart.svg); }
+
+#plane {
+  background-image: url(./images/paperPlane.svg); }
+
+#arrows {
+  background-image: url(./images/arrows.svg); }
+
+#browser {
+  background-image: url(./images/browser.svg); }
+
+#third {
+  bottom: -940px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,26 +3,31 @@
 <head>
     <title>Eclipse</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 </head>
 <body>
 <div class="wrapperHead">
     <div class="landingPage">
         <nav>
             <div class="logo"></div>
+            <button class="join">join</button>
+            <label for="toggle" class="hamburger"></label>
+            <input type="checkbox" id="toggle">
             <ul>
                 <li>About</li>
-                <li>About</li>
-                <li>About</li>
-                <li>About</li>
+                <li>studio</li>
+                <li>Pricing</li>
+                <li>Blog</li>
             </ul>
-            <button class="join">join</button>
+            
         </nav>
-        <h1>Design<br>
-             Design<br>
-             &amp Design
+        <h1>push yourself<br>
+             &amp; your<br>
+             Designs
         </h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <form class="styleForm" action="thanks.html">
@@ -32,14 +37,42 @@
                 <option>Nice Style</option>
                 <option>Decent Style</option>
             </select><br>
-            <input type="email" name="email" class="email" placeholder="email">
-            <input type="submit" name="submit" class="submit">
+            <input type="email" name="email" class="email" placeholder="Email">
+            <input type="submit" name="submit" class="submit" value=" ">
         </form>
+        <div class="arrow"></div>
     </div>
 </div>
-<div class="wrapperContent">
+<section class="latest">
+    <h1>Latest Design Style</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+<div class="arrow" id="blueArrow"></div>
+<section class="aboutFeatures">
+    <h1>Features of App</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <div class="features">
+        <div class="feature">
+            <div class="block" id="cart"></div>
+            <p>Lorem ipsum dolor sit </p>
+        </div>
+        <div class="feature">
+            <div class="block" id="plane"></div>
+            <p>Lorem ipsum dolor sit </p>
+        </div>
+        <div class="feature">
+            <div class="block" id="arrows"></div>
+            <p>Lorem ipsum dolor sit </p>
+        </div>
+        <div class="feature">
+            <div class="block" id="browser"></div>
+            <p>Lorem ipsum dolor sit </p>
+        </div>
+     </div>
+</section>
+<div class="arrow" id="third"></div>
 
-
-</div>
 </body>
 </html>

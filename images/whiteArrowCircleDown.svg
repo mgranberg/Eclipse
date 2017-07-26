@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150px"
+   height="150px"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="whiteArrowCircleDownt.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7066667"
+     inkscape:cx="-20.214844"
+     inkscape:cy="75"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true" />
+  <defs
+     id="defs949" />
+  <metadata
+     id="metadata952">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-8"
+       transform="matrix(0,-0.71401335,0.71401335,0,21.448997,128.551)"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="matrix(0.22409058,0,0,0.22409058,17.632812,17.632812)"
+         id="g1023">
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g967">
+          <path
+             style="fill:#ffffff;fill-opacity:1"
+             inkscape:connector-curvature="0"
+             d="M 256,0 C 397.385,0 512,114.615 512,256 512,397.385 397.385,512 256,512 114.615,512 0,397.385 0,256 0,114.615 114.615,0 256,0 Z m 0,464 C 370.875,464 464,370.875 464,256 464,141.125 370.875,48 256,48 141.125,48 48,141.125 48,256 c 0,114.875 93.125,208 208,208 z m -150.628,-230.627 128.001,-128 c 12.496,-12.497 32.757,-12.497 45.254,0 12.497,12.497 12.497,32.758 0,45.255 L 205.255,224 H 384 c 17.674,0 32,14.327 32,32 0,17.673 -14.326,32 -32,32 H 205.255 l 73.373,73.372 c 12.497,12.497 12.497,32.759 0,45.256 C 272.379,412.876 264.189,416 256,416 c -8.189,0 -16.379,-3.124 -22.627,-9.372 l -128.001,-128 c -12.496,-12.497 -12.496,-32.759 0,-45.255 z"
+             id="path965" />
+        </g>
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g969" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g971" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g973" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g975" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g977" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g979" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g981" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g983" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g985" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g987" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g989" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g991" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g993" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g995" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           id="g997" />
+      </g>
+    </g>
+  </g>
+</svg>
