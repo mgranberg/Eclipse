@@ -208,6 +208,8 @@ section {
 
 .aboutFeatures {
   height: 600px; }
+  .aboutFeatures h1 {
+    font-size: 20px; }
 
 .features {
   height: 375px;
@@ -244,5 +246,67 @@ section {
 
 #third {
   bottom: -940px; }
+
+.guidelines {
+  background-color: #F5F7F9;
+  height: 400px; }
+  .guidelines h1 {
+    font-size: 20px; }
+
+.glcheck {
+  display: none; }
+
+.glmenu {
+  margin: 0 auto;
+  height: 37px;
+  width: 348px;
+  border: 1px solid #28C8C6; }
+  .glmenu button {
+    padding: 5px;
+    float: left;
+    display: block;
+    width: 87px;
+    height: 37px;
+    background-color: #F5F7F9;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+    text-transform: uppercase; }
+    .glmenu button:hover {
+      background: #28C8C6;
+      color: white; }
+
+.posts {
+  overflow: hidden;
+  height: 134px;
+  width: 348px;
+  margin: 40px auto; }
+
+.glpost {
+  margin: 0 10px;
+  float: left;
+  width: 154px;
+  height: 114px; }
+  .glpost .listing {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 84px;
+    background-size: cover;
+    background-position: center; }
+  .glpost p {
+    background-image: url(./images/arrowRightBlue.svg);
+    background-size: 20%;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 5px;
+    line-height: 30px;
+    margin: 0;
+    height: 30px;
+    border-radius: 0 0 8px 8px; }
+
+#listingOne {
+  background-image: url(./images/light.jpeg); }
 
 /*# sourceMappingURL=style.css.map */

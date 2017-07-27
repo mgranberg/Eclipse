@@ -215,11 +215,13 @@ section
 
 .aboutFeatures
     height: 600px
-
+    h1
+        font-size: 20px
 .features
     height: 375px
     margin: 40px auto
     width: 350px
+
 
 .feature
     float: left
@@ -253,3 +255,65 @@ section
 
 #third
     bottom: -940px
+
+.guidelines
+    background-color: #F5F7F9
+    height: 400px
+    h1
+        font-size: 20px
+.glcheck
+    display: none
+.glmenu
+    margin: 0 auto
+    height: 37px
+    width: 348px
+    border: 1px solid $blue
+    button
+        padding: 5px
+        float: left
+        display: block
+        width: 87px
+        height: 37px
+        background-color: #F5F7F9
+        border: none
+        font:
+            family: $header-font
+            weight: 700
+            size: 9px
+        text-transform: uppercase
+        &:hover
+            background: $blue
+            color: white
+
+.posts
+    overflow: hidden
+    height: 134px
+    width: 348px
+    margin: 40px auto
+.glpost
+    margin: 0 10px
+    float: left
+    width: 154px
+    height: 114px
+    .listing
+        border-radius: 8px 8px 0 0
+        width: 100%
+        height: 84px
+        background:
+            size: cover
+            position: center
+    p
+        background:
+            image: url(./images/arrowRightBlue.svg)
+            size: 20%
+            position: right
+            repeat: no-repeat
+        text-align: left
+        padding: 5px
+        line-height: 30px
+        margin: 0
+        height: 30px
+        border-radius: 0 0 8px 8px
+
+#listingOne
+    background-image: url(./images/light.jpeg)
